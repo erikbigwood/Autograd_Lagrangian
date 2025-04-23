@@ -1,0 +1,152 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global/global}
+  \entry{Cranmer}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=CM}{%
+         family={Cranmer},
+         familyi={C\bibinitperiod},
+         given={Miles},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Greydanus},
+         familyi={G\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hoyer},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Battaglia},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Spergel},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={Shirley},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMGSHSBPSDHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Accurate models of the world are built upon notions of its underlying
+  symmetries. In physics, these symmetries correspond to conservation laws,
+  such as for energy and momentum. Yet even though neural network models see
+  increasing use in the physical sciences, they struggle to learn these
+  symmetries. In this paper, we propose Lagrangian Neural Networks (LNNs),
+  which can parameterize arbitrary Lagrangians using neural networks. In
+  contrast to models that learn Hamiltonians, LNNs do not require canonical
+  coordinates, and thus perform well in situations where canonical momenta are
+  unknown or difficult to compute. Unlike previous approaches, our method does
+  not restrict the functional form of learned energies and will produce
+  energy-conserving models for a variety of tasks. We test our approach on a
+  double pendulum and a relativistic particle, demonstrating energy
+  conservation where a baseline approach incurs dissipation and modeling
+  relativity without canonical coordinates where a Hamiltonian approach fails.
+  Finally, we show how this model can be applied to graphs and continuous
+  systems using a Lagrangian Graph Network, and demonstrate it on the 1D wave
+  equation.%
+    }
+    \verb{eprint}
+    \verb 2003.04630
+    \endverb
+    \field{title}{Lagrangian Neural Networks}
+    \verb{url}
+    \verb https://arxiv.org/pdf/2003.04630.pdf
+    \endverb
+    \field{month}{03}
+    \field{year}{2020}
+  \endentry
+
+  \entry{DiracLagrangianinQM}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=DPAM}{%
+         family={Dirac},
+         familyi={D\bibinitperiod},
+         given={P.\bibnamedelima A.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DPAM1}
+    \strng{fullhash}{DPAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{pages}{64\bibrangedash 72}
+    \field{title}{The Lagrangian in Quantum Mechanics}
+    \field{volume}{3}
+    \field{journaltitle}{Physikalische Zeitschrift der Sowjetunion}
+    \field{year}{1933}
+  \endentry
+
+  \entry{Taylor}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=TJR}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={John\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=YL}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={Lee},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University Science Books}%
+    }
+    \strng{namehash}{TJR1}
+    \strng{fullhash}{TJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{edition}{1}
+    \field{title}{Classical Mechanics}
+    \list{location}{1}{%
+      {Mill Valley, CA}%
+    }
+    \field{year}{2005}
+  \endentry
+\enddatalist
+\endinput
