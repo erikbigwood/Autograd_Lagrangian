@@ -1,0 +1,284 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global/global}
+  \entry{Cranmer2020}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=CM}{%
+         family={Cranmer},
+         familyi={C\bibinitperiod},
+         given={Miles},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Greydanus},
+         familyi={G\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hoyer},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Battaglia},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Spergel},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={Shirley},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMGSHSBPSDHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Accurate models of the world are built upon notions of its underlying
+  symmetries. In physics, these symmetries correspond to conservation laws,
+  such as for energy and momentum. Yet even though neural network models see
+  increasing use in the physical sciences, they struggle to learn these
+  symmetries. In this paper, we propose Lagrangian Neural Networks (LNNs),
+  which can parameterize arbitrary Lagrangians using neural networks. In
+  contrast to models that learn Hamiltonians, LNNs do not require canonical
+  coordinates, and thus perform well in situations where canonical momenta are
+  unknown or difficult to compute. Unlike previous approaches, our method does
+  not restrict the functional form of learned energies and will produce
+  energy-conserving models for a variety of tasks. We test our approach on a
+  double pendulum and a relativistic particle, demonstrating energy
+  conservation where a baseline approach incurs dissipation and modeling
+  relativity without canonical coordinates where a Hamiltonian approach fails.
+  Finally, we show how this model can be applied to graphs and continuous
+  systems using a Lagrangian Graph Network, and demonstrate it on the 1D wave
+  equation.%
+    }
+    \field{title}{Lagrangian Neural Networks}
+    \verb{url}
+    \verb https://arxiv.org/pdf/2003.04630.pdf
+    \endverb
+    \field{month}{05}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Paszke2019}{article}{}{}
+    \name{author}{22}{}{%
+      {{hash=PA}{%
+         family={Paszke},
+         familyi={P\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Massa},
+         familyi={M\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lerer},
+         familyi={L\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GJB}{%
+         family={Google},
+         familyi={G\bibinitperiod},
+         given={James\bibnamedelima Bradbury},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Chanan},
+         familyi={C\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Killeen},
+         familyi={K\bibinitperiod},
+         given={Trevor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Zeming},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Gimelshein},
+         familyi={G\bibinitperiod},
+         given={Natalia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AL}{%
+         family={Antiga},
+         familyi={A\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Desmaison},
+         familyi={D\bibinitperiod},
+         given={Alban},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=XAK}{%
+         family={Xamla},
+         familyi={X\bibinitperiod},
+         given={Andreas\bibnamedelima Köpf},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=YE}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DZ}{%
+         family={Devito},
+         familyi={D\bibinitperiod},
+         given={Zach},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=NMR}{%
+         family={Nabla},
+         familyi={N\bibinitperiod},
+         given={Martin\bibnamedelima Raison},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tejani},
+         familyi={T\bibinitperiod},
+         given={Alykhan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chilamkurthy},
+         familyi={C\bibinitperiod},
+         given={Sasank},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AQ}{%
+         family={Ai},
+         familyi={A\bibinitperiod},
+         given={Qure},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Steiner},
+         familyi={S\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FLF}{%
+         family={Facebook},
+         familyi={F\bibinitperiod},
+         given={Lu\bibnamedelima Fang},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=FJB}{%
+         family={Facebook},
+         familyi={F\bibinitperiod},
+         given={Junjie\bibnamedelima Bai},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chintala},
+         familyi={C\bibinitperiod},
+         given={Soumith},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PAGSMFLAGJBCGKTLZGNALDAXAKYEDZNMRTACSAQSBFLFFJBCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Deep learning frameworks have often focused on either usability or speed,
+  but not both. PyTorch is a machine learning library that shows that these two
+  goals are in fact compatible: it provides an imperative and Pythonic
+  programming style that supports code as a model, makes debugging easy and is
+  consistent with other popular scientific computing libraries, while remaining
+  efficient and supporting hardware accelerators such as GPUs. In this paper,
+  we detail the principles that drove the implementation of PyTorch and how
+  they are reflected in its architecture. We emphasize that every aspect of
+  PyTorch is a regular Python program under the full control of its user. We
+  also explain how the careful and pragmatic implementation of the key
+  components of its runtime enables them to work together to achieve compelling
+  performance. We demonstrate the efficiency of individual subsystems, as well
+  as the overall speed of PyTorch on several common benchmarks.%
+    }
+    \field{title}{PyTorch: An Imperative Style, High-Performance Deep Learning
+  Library}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Taylor2005}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=TJR}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={John\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=YL}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={Lee},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University Science Books}%
+    }
+    \strng{namehash}{TJR1}
+    \strng{fullhash}{TJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{edition}{1}
+    \field{title}{Classical Mechanics}
+    \field{year}{2005}
+  \endentry
+\enddatalist
+\endinput

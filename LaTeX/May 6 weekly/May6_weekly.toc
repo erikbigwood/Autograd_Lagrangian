@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Harmonic Oscillator Demonstration}{2}{section.1}%
+\contentsline {paragraph}{Basic algorithm}{2}{section*.2}%
+\contentsline {paragraph}{Adding noise}{4}{section*.6}%
+\contentsline {section}{\numberline {2}Algorithm improvements}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Calculating $\ddot {q}$}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Calculating gradients}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Derivations}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Lagrangian}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analytical equations of motion}{8}{subsection.3.2}%
+\contentsline {paragraph}{Harmonic Oscillator}{8}{section*.10}%
+\contentsline {section}{\numberline {A}Figures}{9}{appendix.1.A}%
+\contentsline {section}{\numberline {B}Bibliography}{11}{appendix.2.B}%
