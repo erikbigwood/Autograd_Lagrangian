@@ -1,0 +1,107 @@
+@article{Dirac1933,
+   author = {P A M Dirac},
+   journal = {Physikalische Zeitschrift der Sowjetunion},
+   pages = {64-72},
+   title = {The Lagrangian in Quantum Mechanics},
+   volume = {3},
+   year = {1933}
+}
+@article{Cranmer2020,
+   abstract = {Accurate models of the world are built upon notions of its underlying symmetries. In physics, these symmetries correspond to conservation laws, such as for energy and momentum. Yet even though neural network models see increasing use in the physical sciences, they struggle to learn these symmetries. In this paper, we propose Lagrangian Neural Networks (LNNs), which can parameterize arbitrary Lagrangians using neural networks. In contrast to models that learn Hamiltonians, LNNs do not require canonical coordinates, and thus perform well in situations where canonical momenta are unknown or difficult to compute. Unlike previous approaches, our method does not restrict the functional form of learned energies and will produce energy-conserving models for a variety of tasks. We test our approach on a double pendulum and a relativistic particle, demonstrating energy conservation where a baseline approach incurs dissipation and modeling relativity without canonical coordinates where a Hamiltonian approach fails. Finally, we show how this model can be applied to graphs and continuous systems using a Lagrangian Graph Network, and demonstrate it on the 1D wave equation.},
+   author = {Miles Cranmer and Sam Greydanus and Stephan Hoyer and Peter Battaglia and David Spergel and Shirley Ho},
+   month = {5},
+   title = {Lagrangian Neural Networks},
+   url = {https://arxiv.org/pdf/2003.04630.pdf},
+   year = {2020}
+}
+@book{Taylor2005,
+   author = {John R Taylor},
+   city = {Mill Valley, CA},
+   edition = {1},
+   editor = {Lee Young},
+   publisher = {University Science Books},
+   title = {Classical Mechanics},
+   year = {2005}
+}
+@article{vmap,
+   author = {Pytorch},
+   issue = {1},
+   journal = {PyTorch documentation},
+   month = {5},
+   title = {torch.vmap},
+   url = {https://pytorch.org/docs/stable/generated/torch.vmap.html},
+   year = {2025}
+}
+@article{vmap,
+   author = {Documentation Pytorch},
+   issue = {2},
+   journal = {PyTorch documentation},
+   month = {5},
+   title = {torch.func.jacfwd},
+   url = {https://pytorch.org/docs/stable/generated/torch.func.jacfwd.html#torch.func.jacfwd},
+   year = {2025}
+}
+@article{Paszke2019,
+   abstract = {Deep learning frameworks have often focused on either usability or speed, but not both. PyTorch is a machine learning library that shows that these two goals are in fact compatible: it provides an imperative and Pythonic programming style that supports code as a model, makes debugging easy and is consistent with other popular scientific computing libraries, while remaining efficient and supporting hardware accelerators such as GPUs. In this paper, we detail the principles that drove the implementation of PyTorch and how they are reflected in its architecture. We emphasize that every aspect of PyTorch is a regular Python program under the full control of its user. We also explain how the careful and pragmatic implementation of the key components of its runtime enables them to work together to achieve compelling performance. We demonstrate the efficiency of individual subsystems, as well as the overall speed of PyTorch on several common benchmarks.},
+   author = {Adam Paszke and Sam Gross and Francisco Massa and Adam Lerer and James Bradbury Google and Gregory Chanan and Trevor Killeen and Zeming Lin and Natalia Gimelshein and Luca Antiga and Alban Desmaison and Andreas Köpf Xamla and Edward Yang and Zach Devito and Martin Raison Nabla and Alykhan Tejani and Sasank Chilamkurthy and Qure Ai and Benoit Steiner and Lu Fang Facebook and Junjie Bai Facebook and Soumith Chintala},
+   title = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},
+   year = {2019}
+}
+@article{Halverson2024,
+   abstract = {These notes are based on lectures I gave at TASI 2024 on Physics for Machine Learning. The focus is on neural network theory, organized according to network expressivity, statistics, and dynamics. I present classic results such as the universal approximation theorem and neural network / Gaussian process correspondence, and also more recent results such as the neural tangent kernel, feature learning with the maximal update parameterization, and Kolmogorov-Arnold networks. The exposition on neural network theory emphasizes a field theoretic perspective familiar to theoretical physicists. I elaborate on connections between the two, including a neural network approach to field theory.},
+   author = {Jim Halverson},
+   month = {7},
+   title = {TASI Lectures on Physics for Machine Learning},
+   url = {https://arxiv.org/abs/2408.00082v1},
+   year = {2024}
+}
+@article{Kingma2014,
+   abstract = {We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.},
+   author = {Diederik P. Kingma and Jimmy Lei Ba},
+   journal = {3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings},
+   month = {12},
+   publisher = {International Conference on Learning Representations, ICLR},
+   title = {Adam: A Method for Stochastic Optimization},
+   url = {https://arxiv.org/abs/1412.6980v9},
+   year = {2014}
+}
+@article{Duchi2011,
+   abstract = {We present a new family of subgradient methods that dynamically incorporate knowledge of the geometry of the data observed in earlier iterations to perform more informative gradient-based learning. Metaphorically, the adaptation allows us to find needles in haystacks in the form of very predictive but rarely seen features. Our paradigm stems from recent advances in stochastic optimization and online learning which employ proximal functions to control the gradient steps of the algorithm. We describe and analyze an apparatus for adaptively modifying the proximal function , which significantly simplifies setting a learning rate and results in regret guarantees that are provably as good as the best proximal function that can be chosen in hindsight. We give several efficient algorithms for empirical risk minimization problems with common and important regu-larization functions and domain constraints. We experimentally study our theoretical analysis and show that adaptive subgradient methods outperform state-of-the-art, yet non-adaptive, subgradient algorithms.},
+   author = {John Duchi and Yoram Singer},
+   journal = {Journal of Machine Learning Research},
+   keywords = {adaptivity,online learning,stochastic convex optimization,subgradient methods},
+   pages = {2121-2159},
+   title = {Adaptive Subgradient Methods for Online Learning and Stochastic Optimization * Elad Hazan},
+   volume = {12},
+   year = {2011}
+}
+@book{Griffiths2013,
+   author = {David Griffiths},
+   city = {Glenview, IL},
+   edition = {4th},
+   editor = {Jim Smith and Martha Steele and Corinne Benson},
+   isbn = {\cite\{Duchi2011\}},
+   keywords = {Griffiths},
+   publisher = {Pearson Education, Inc.},
+   title = {INTRODUCTION TO ELECTRODYNAMICS},
+   year = {2013}
+}
+@article{Colab,
+   author = {Google},
+   journal = {Online},
+   month = {5},
+   title = {Welcome To Colab - Colab},
+   url = {https://colab.research.google.com/},
+   year = {2025}
+}
+@article{Binomial,
+   abstract = {There are several related series that are known as the binomial series. The most general is  (x+a)^nu=sum_(k=0)^infty(nu; k)x^ka^(nu-k),  (1)   where (nu; k) is a binomial coefficient and nu is a real number. This series converges for nu>=0 an integer, or |x/a|<1 (Graham et al. 1994, p. 162). When nu is a positive integer n, the series terminates at n=nu and can be written in the form  (x+a)^n=sum_(k=0)^n(n; k)x^ka^(n-k).  (2)   The theorem that any one of these (or several other...},
+   author = {Eric W. Weisstein},
+   journal = {MathWorld},
+   keywords = {05A10,11B65,40,Mathematics:Calculus and Analysis:Series:General Series,Mathematics:Discrete Mathematics:Combinatorics:Binomial Coefficients},
+   month = {4},
+   publisher = {Wolfram Research, Inc.},
+   title = {Binomial Series},
+   url = {https://mathworld.wolfram.com/BinomialSeries.html},
+   year = {2025}
+}
