@@ -1,0 +1,159 @@
+@article{Dirac1933,
+   author = {P A M Dirac},
+   journal = {Physikalische Zeitschrift der Sowjetunion},
+   pages = {64-72},
+   title = {The Lagrangian in Quantum Mechanics},
+   volume = {3},
+   year = {1933}
+}
+@article{Cranmer2020,
+   abstract = {Accurate models of the world are built upon notions of its underlying symmetries. In physics, these symmetries correspond to conservation laws, such as for energy and momentum. Yet even though neural network models see increasing use in the physical sciences, they struggle to learn these symmetries. In this paper, we propose Lagrangian Neural Networks (LNNs), which can parameterize arbitrary Lagrangians using neural networks. In contrast to models that learn Hamiltonians, LNNs do not require canonical coordinates, and thus perform well in situations where canonical momenta are unknown or difficult to compute. Unlike previous approaches, our method does not restrict the functional form of learned energies and will produce energy-conserving models for a variety of tasks. We test our approach on a double pendulum and a relativistic particle, demonstrating energy conservation where a baseline approach incurs dissipation and modeling relativity without canonical coordinates where a Hamiltonian approach fails. Finally, we show how this model can be applied to graphs and continuous systems using a Lagrangian Graph Network, and demonstrate it on the 1D wave equation.},
+   author = {Miles Cranmer and Sam Greydanus and Stephan Hoyer and Peter Battaglia and David Spergel and Shirley Ho},
+   month = {5},
+   title = {Lagrangian Neural Networks},
+   url = {https://arxiv.org/pdf/2003.04630.pdf},
+   year = {2020}
+}
+@book{Taylor2005,
+   author = {John R Taylor},
+   city = {Mill Valley, CA},
+   edition = {1},
+   editor = {Lee Young},
+   publisher = {University Science Books},
+   title = {Classical Mechanics},
+   year = {2005}
+}
+@article{vmap,
+   author = {Pytorch},
+   issue = {1},
+   journal = {PyTorch documentation},
+   month = {5},
+   title = {torch.vmap},
+   url = {https://pytorch.org/docs/stable/generated/torch.vmap.html},
+   year = {2025}
+}
+@article{vmap,
+   author = {Documentation Pytorch},
+   issue = {2},
+   journal = {PyTorch documentation},
+   month = {5},
+   title = {torch.func.jacfwd},
+   url = {https://pytorch.org/docs/stable/generated/torch.func.jacfwd.html#torch.func.jacfwd},
+   year = {2025}
+}
+@article{Paszke2019,
+   abstract = {Deep learning frameworks have often focused on either usability or speed, but not both. PyTorch is a machine learning library that shows that these two goals are in fact compatible: it provides an imperative and Pythonic programming style that supports code as a model, makes debugging easy and is consistent with other popular scientific computing libraries, while remaining efficient and supporting hardware accelerators such as GPUs. In this paper, we detail the principles that drove the implementation of PyTorch and how they are reflected in its architecture. We emphasize that every aspect of PyTorch is a regular Python program under the full control of its user. We also explain how the careful and pragmatic implementation of the key components of its runtime enables them to work together to achieve compelling performance. We demonstrate the efficiency of individual subsystems, as well as the overall speed of PyTorch on several common benchmarks.},
+   author = {Adam Paszke and Sam Gross and Francisco Massa and Adam Lerer and James Bradbury Google and Gregory Chanan and Trevor Killeen and Zeming Lin and Natalia Gimelshein and Luca Antiga and Alban Desmaison and Andreas Köpf Xamla and Edward Yang and Zach Devito and Martin Raison Nabla and Alykhan Tejani and Sasank Chilamkurthy and Qure Ai and Benoit Steiner and Lu Fang Facebook and Junjie Bai Facebook and Soumith Chintala},
+   title = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},
+   year = {2019}
+}
+@article{Halverson2024,
+   abstract = {These notes are based on lectures I gave at TASI 2024 on Physics for Machine Learning. The focus is on neural network theory, organized according to network expressivity, statistics, and dynamics. I present classic results such as the universal approximation theorem and neural network / Gaussian process correspondence, and also more recent results such as the neural tangent kernel, feature learning with the maximal update parameterization, and Kolmogorov-Arnold networks. The exposition on neural network theory emphasizes a field theoretic perspective familiar to theoretical physicists. I elaborate on connections between the two, including a neural network approach to field theory.},
+   author = {Jim Halverson},
+   month = {7},
+   title = {TASI Lectures on Physics for Machine Learning},
+   url = {https://arxiv.org/abs/2408.00082v1},
+   year = {2024}
+}
+@article{Kingma2014,
+   abstract = {We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.},
+   author = {Diederik P. Kingma and Jimmy Lei Ba},
+   journal = {3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings},
+   month = {12},
+   publisher = {International Conference on Learning Representations, ICLR},
+   title = {Adam: A Method for Stochastic Optimization},
+   url = {https://arxiv.org/abs/1412.6980v9},
+   year = {2014}
+}
+@article{Duchi2011,
+   abstract = {We present a new family of subgradient methods that dynamically incorporate knowledge of the geometry of the data observed in earlier iterations to perform more informative gradient-based learning. Metaphorically, the adaptation allows us to find needles in haystacks in the form of very predictive but rarely seen features. Our paradigm stems from recent advances in stochastic optimization and online learning which employ proximal functions to control the gradient steps of the algorithm. We describe and analyze an apparatus for adaptively modifying the proximal function , which significantly simplifies setting a learning rate and results in regret guarantees that are provably as good as the best proximal function that can be chosen in hindsight. We give several efficient algorithms for empirical risk minimization problems with common and important regu-larization functions and domain constraints. We experimentally study our theoretical analysis and show that adaptive subgradient methods outperform state-of-the-art, yet non-adaptive, subgradient algorithms.},
+   author = {John Duchi and Yoram Singer},
+   journal = {Journal of Machine Learning Research},
+   keywords = {adaptivity,online learning,stochastic convex optimization,subgradient methods},
+   pages = {2121-2159},
+   title = {Adaptive Subgradient Methods for Online Learning and Stochastic Optimization * Elad Hazan},
+   volume = {12},
+   year = {2011}
+}
+@book{Griffiths2013,
+   author = {David Griffiths},
+   city = {Glenview, IL},
+   edition = {4th},
+   editor = {Jim Smith and Martha Steele and Corinne Benson},
+   isbn = {\cite\{Duchi2011\}},
+   keywords = {Griffiths},
+   publisher = {Pearson Education, Inc.},
+   title = {INTRODUCTION TO ELECTRODYNAMICS},
+   year = {2013}
+}
+@article{Colab,
+   author = {Google},
+   journal = {Online},
+   month = {5},
+   title = {Welcome To Colab - Colab},
+   url = {https://colab.research.google.com/},
+   year = {2025}
+}
+@article{Binomial,
+   abstract = {There are several related series that are known as the binomial series. The most general is  (x+a)^nu=sum_(k=0)^infty(nu; k)x^ka^(nu-k),  (1)   where (nu; k) is a binomial coefficient and nu is a real number. This series converges for nu>=0 an integer, or |x/a|<1 (Graham et al. 1994, p. 162). When nu is a positive integer n, the series terminates at n=nu and can be written in the form  (x+a)^n=sum_(k=0)^n(n; k)x^ka^(n-k).  (2)   The theorem that any one of these (or several other...},
+   author = {Eric W. Weisstein},
+   journal = {MathWorld},
+   keywords = {05A10,11B65,40,Mathematics:Calculus and Analysis:Series:General Series,Mathematics:Discrete Mathematics:Combinatorics:Binomial Coefficients},
+   month = {4},
+   publisher = {Wolfram Research, Inc.},
+   title = {Binomial Series},
+   url = {https://mathworld.wolfram.com/BinomialSeries.html},
+   year = {2025}
+}
+@article{Greydanus2019,
+   abstract = {Even though neural networks enjoy widespread use, they still struggle to learn the basic laws of physics. How might we endow them with better inductive biases? In this paper, we draw inspiration from Hamiltonian mechanics to train models that learn and respect exact conservation laws in an unsupervised manner. We evaluate our models on problems where conservation of energy is important, including the two-body problem and pixel observations of a pendulum. Our model trains faster and generalizes better than a regular neural network. An interesting side effect is that our model is perfectly reversible in time.},
+   author = {Sam Greydanus and Misko Dzamba and Jason Yosinski},
+   issn = {10495258},
+   journal = {Advances in Neural Information Processing Systems},
+   month = {6},
+   publisher = {Neural information processing systems foundation},
+   title = {Hamiltonian Neural Networks},
+   volume = {32},
+   url = {https://arxiv.org/abs/1906.01563v3},
+   year = {2019}
+}
+@article{Sanchez-Gonzalez2019,
+   abstract = {We introduce an approach for imposing physically informed inductive biases in learned simulation models. We combine graph networks with a differentiable ordinary differential equation integrator as a mechanism for predicting future states, and a Hamiltonian as an internal representation. We find that our approach outperforms baselines without these biases in terms of predictive accuracy, energy accuracy, and zero-shot generalization to time-step sizes and integrator orders not experienced during training. This advances the state-of-the-art of learned simulation, and in principle is applicable beyond physical domains.},
+   author = {Alvaro Sanchez-Gonzalez and Victor Bapst and Kyle Cranmer and Peter Battaglia},
+   month = {9},
+   title = {Hamiltonian Graph Networks with ODE Integrators},
+   url = {https://arxiv.org/abs/1909.12790v1},
+   year = {2019}
+}
+@article{Lutter2019,
+   abstract = {Deep learning has achieved astonishing results on many tasks with large amounts of data and generalization within the proximity of training data. For many important real-world applications, these requirements are unfeasible and additional prior knowledge on the task domain is required to overcome the resulting problems. In particular, learning physics models for model-based control requires robust extrapolation from fewer samples - often collected online in real-time - and model errors may lead to drastic damages of the system. Directly incorporating physical insight has enabled us to obtain a novel deep model learning approach that extrapolates well while requiring fewer samples. As a first example, we propose Deep Lagrangian Networks (DeLaN) as a deep network structure upon which Lagrangian Mechanics have been imposed. DeLaN can learn the equations of motion of a mechanical system (i.e., system dynamics) with a deep network efficiently while ensuring physical plausibility. The resulting DeLaN network performs very well at robot tracking control. The proposed method did not only outperform previous model learning approaches at learning speed but exhibits substantially improved and more robust extrapolation to novel trajectories and learns online in real-time},
+   author = {Michael Lutter and Christian Ritter and Jan Peters},
+   journal = {7th International Conference on Learning Representations, ICLR 2019},
+   month = {7},
+   publisher = {International Conference on Learning Representations, ICLR},
+   title = {Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning},
+   url = {https://arxiv.org/abs/1907.04490v1},
+   year = {2019}
+}
+@article{Baskerville2021,
+   abstract = {The loss surfaces of deep neural networks have been the subject of several studies, theoretical and experimental, over the last few years. One strand of work considers the complexity, in the sense of local optima, of high dimensional random functions with the aim of informing how local optimisation methods may perform in such complicated settings. Prior work of Choromanska et al (2015) established a direct link between the training loss surfaces of deep multi-layer perceptron networks and spherical multi-spin glass models under some very strong assumptions on the network and its data. In this work, we test the validity of this approach by removing the undesirable restriction to ReLU activation functions. In doing so, we chart a new path through the spin glass complexity calculations using supersymmetric methods in Random Matrix Theory which may prove useful in other contexts. Our results shed new light on both the strengths and the weaknesses of spin glass models in this context.},
+   author = {Nicholas P Baskerville and Jonathan P Keating and Francesco Mezzadri and Joseph Najnudel},
+   title = {THE LOSS SURFACES OF NEURAL NETWORKS WITH GENERAL ACTIVATION FUNCTIONS},
+   year = {2021}
+}
+@article{CafDeMiranda2025,
+   abstract = {† Both Authors contributed equally to the present work. Machine learning techniques have emerged as powerful tools to tackle various challenges. The integration of machine learning methods with Physics has led to innovative approaches in understanding, controlling, and simulating physical phenomena. This article aims to provide a practical introduction to neural network and their basic concepts. It presents some perspectives on recent advances at the intersection of machine learning models with physical systems. We introduce practical material to guide the reader in taking their first steps in applying neural network to Physics problems. As an illustrative example, we provide four applications of increasing complexity for the problem of a simple pendulum, namely: parameter fitting of the pendulum's ODE for the small-angle approximation; Application of Physics-Inspired Neural Networks (PINNs) to find solutions of the pendulum's ODE in the small-angle regime; Autoencoders applied to an image dataset of the pendulum's oscillations for estimating the dimensionality of the parameter space in this physical system; and the use of Sparse Identification of Non-Linear Dynamics (SINDy) architectures for model discovery and analytical expressions for the nonlinear pendulum problem (large angles).},
+   author = {Gustavo Café De Miranda},
+   keywords = {physics.comp-ph,physics.ed-ph},
+   title = {An introduction to Neural Networks for Physicists},
+   year = {2025}
+}
+@article{Yu2021,
+   abstract = {Despite the tremendous successes of deep neural networks (DNNs) in various applications, many fundamental aspects of deep learning remain incompletely understood, including DNN trainability. In a trainability study, one aims to discern what makes one DNN model easier to train than another under comparable conditions. In particular, our study focuses on multi-layer perceptron (MLP) models equipped with the same number of parameters. We introduce a new notion called variability to help explain the benefits of deep learning and the difficulties in training very deep MLPs. Simply put, variability of a neural network represents the richness of landscape patterns in the data space with respect to well-scaled random weights. We empirically show that variability is positively correlated to the number of activations and negatively correlated to a phenomenon called "Collapse to Constant", which is related but not identical to the well-known vanishing gradient phenomenon. Experiments on a small stylized model problem confirm that variability can indeed accurately predict MLP trainability. In addition, we demonstrate that, as an activation function in MLP models, the absolute value function can offer better variability than the popular ReLU function can.},
+   author = {Yueyao Yu and Yin Zhang},
+   keywords = {Index Terms-Deep neural network,absolute-value acti-vation,collapse to constant,multi-layer perceptron,trainability,variability},
+   month = {5},
+   title = {Multi-layer Perceptron Trainability Explained via Variability},
+   url = {https://arxiv.org/abs/2105.08911v3},
+   year = {2021}
+}

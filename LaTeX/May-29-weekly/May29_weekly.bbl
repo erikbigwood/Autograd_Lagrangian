@@ -1,0 +1,62 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Yu2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=58cf863ab83e603a0130343733013a9f}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yueyao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5d6038c292fe254b531b0db4830097e3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b60363a677737d8897f3a60b27528c2}
+      \strng{fullhash}{1b60363a677737d8897f3a60b27528c2}
+      \strng{fullhashraw}{1b60363a677737d8897f3a60b27528c2}
+      \strng{bibnamehash}{1b60363a677737d8897f3a60b27528c2}
+      \strng{authorbibnamehash}{1b60363a677737d8897f3a60b27528c2}
+      \strng{authornamehash}{1b60363a677737d8897f3a60b27528c2}
+      \strng{authorfullhash}{1b60363a677737d8897f3a60b27528c2}
+      \strng{authorfullhashraw}{1b60363a677737d8897f3a60b27528c2}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite the tremendous successes of deep neural networks (DNNs) in various applications, many fundamental aspects of deep learning remain incompletely understood, including DNN trainability. In a trainability study, one aims to discern what makes one DNN model easier to train than another under comparable conditions. In particular, our study focuses on multi-layer perceptron (MLP) models equipped with the same number of parameters. We introduce a new notion called variability to help explain the benefits of deep learning and the difficulties in training very deep MLPs. Simply put, variability of a neural network represents the richness of landscape patterns in the data space with respect to well-scaled random weights. We empirically show that variability is positively correlated to the number of activations and negatively correlated to a phenomenon called "Collapse to Constant", which is related but not identical to the well-known vanishing gradient phenomenon. Experiments on a small stylized model problem confirm that variability can indeed accurately predict MLP trainability. In addition, we demonstrate that, as an activation function in MLP models, the absolute value function can offer better variability than the popular ReLU function can.}
+      \field{month}{5}
+      \field{title}{Multi-layer Perceptron Trainability Explained via Variability}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2105.08911v3
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2105.08911v3
+      \endverb
+      \keyw{Index Terms-Deep neural network,absolute-value acti-vation,collapse to constant,multi-layer perceptron,trainability,variability}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

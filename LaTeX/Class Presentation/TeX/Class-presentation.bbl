@@ -1,0 +1,114 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Griffiths2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f155d780982df4094a3495f4b0c58354}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=24b7be5b577041e83bf3c4fe658111a5}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2de718a26ac16b32c408bfad8d956d61}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aa93793f63d890d0446e9cd4478c1654}{%
+           family={Benson},
+           familyi={B\bibinitperiod},
+           given={Corinne},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education, Inc.}%
+      }
+      \strng{namehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
+      \strng{fullhashraw}{f155d780982df4094a3495f4b0c58354}
+      \strng{bibnamehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{authorbibnamehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{authornamehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{authorfullhash}{f155d780982df4094a3495f4b0c58354}
+      \strng{authorfullhashraw}{f155d780982df4094a3495f4b0c58354}
+      \strng{editorbibnamehash}{36055cb1403ac2fcfe0a9e82b6876038}
+      \strng{editornamehash}{36055cb1403ac2fcfe0a9e82b6876038}
+      \strng{editorfullhash}{36055cb1403ac2fcfe0a9e82b6876038}
+      \strng{editorfullhashraw}{36055cb1403ac2fcfe0a9e82b6876038}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th}
+      \field{isbn}{\cite\{Duchi2011\}}
+      \field{title}{INTRODUCTION TO ELECTRODYNAMICS}
+      \field{year}{2013}
+      \keyw{Griffiths}
+    \endentry
+    \entry{Taylor2005}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=13cd2b5c9128bffc38d1f40b64e3f67c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=ca7453c89ffef49d0bc5a76d8f80d4fc}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Lee},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books}%
+      }
+      \strng{namehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{bibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorbibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authornamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{editorbibnamehash}{ca7453c89ffef49d0bc5a76d8f80d4fc}
+      \strng{editornamehash}{ca7453c89ffef49d0bc5a76d8f80d4fc}
+      \strng{editorfullhash}{ca7453c89ffef49d0bc5a76d8f80d4fc}
+      \strng{editorfullhashraw}{ca7453c89ffef49d0bc5a76d8f80d4fc}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Classical Mechanics}
+      \field{year}{2005}
+    \endentry
+  \enddatalist
+  \missing{\{}
+\endrefsection
+\endinput
+
