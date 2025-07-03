@@ -50,7 +50,7 @@ def QDD_true_v(t,tdot,m1,m2,l1,l2): #pseudo-vectorized...
         outs[:,n] = QDD_true(t[:,n],tdot[:,n],m1,m2,l1,l2)
     return outs
 
-def rand_sampling_q_no_qdot(t0_min,t0_max,t1_min,t1_max,n_points):
+def rand_sampling_q_no_qdot(t0_min,t0_max,t1_min,t1_max,n_points,tdot_min,tdot_max):
     t0_sampling = (t0_max - t0_min)*(torch.rand(n_points)) + t0_min
     t1_sampling = (t1_max - t1_min)*(torch.rand(n_points)) + t1_min
     tdot_sampling = (tdot_max - tdot_min)*(torch.rand([2,n_points])) + tdot_min
@@ -70,6 +70,46 @@ def rand_sampling_q_no_qdot(t0_min,t0_max,t1_min,t1_max,n_points):
     #QDv[1,:] = QD1
     return Qv, QDv
 
+def rand_sampling_qdot_no_q(tdot0_min,tdot0_max,tdot1_min,tdot1_max,n_points,t_min,t_max):
+    tdot0_sampling = (tdot0_max - tdot0_min)*(torch.rand(n_points)) + tdot0_min
+    tdot1_sampling = (tdot1_max - tdot1_min)*(torch.rand(n_points)) + tdot1_min
+    t_sampling = (t_max - t_min)*(torch.rand([2,n_points])) + t_min
+    
+    QD0,ind = sort(tdot0_sampling)
+    
+    QD1 = tdot1_sampling[ind]
+    QD0 = tdot0_sampling[ind]
+
+    QDv = torch.zeros(2,n_points)
+    QDv[0,:] = QD0
+    QDv[1,:] = QD1
+    
+    Qv = torch.zeros(2,n_points)
+    #QDv[0,:] = QD0
+    #QDv[1,:] = QD1
+    return Qv, QDv
+
+def rand_sampling_full(t0_min,t0_max,t1_min,t1_max,tdot0_min,tdot0_max,tdot1_min,tdot1_max,n_points):
+    t0_sampling = (t0_max - t0_min)*(torch.rand(n_points)) + t0_min
+    t1_sampling = (t1_max - t1_min)*(torch.rand(n_points)) + t1_min
+    tdot0_sampling = (tdot0_max - tdot0_min)*(torch.rand(n_points)) + tdot0_min
+    tdot1_sampling = (tdot1_max - tdot1_min)*(torch.rand(n_points)) + tdot1_min
+    
+    Q0,ind = sort(t0_sampling)
+    
+    Q1 = t1_sampling[ind]
+    QD0 = tdot0_sampling[ind]
+    QD1 = tdot1_sampling[ind]
+
+    Qv = torch.zeros(2,n_points)
+    Qv[0,:] = Q0
+    Qv[1,:] = Q1
+    
+    QDv = torch.zeros(2,n_points)
+    QDv[0,:] = QD0
+    QDv[1,:] = QD1
+    return Qv, QDv
+
 def grid_sampling_q_no_qdot(t0_min,t0_max,t1_min,t1_max,n_points):
     n_side = int(torch.sqrt(tensor(n_points)))
     t0_grid = torch.linspace(t0_min,t0_max,n_side)
@@ -80,6 +120,32 @@ def grid_sampling_q_no_qdot(t0_min,t0_max,t1_min,t1_max,n_points):
     Qv[1,:] = T1.reshape(-1)
     QDv = torch.zeros(2,n_side**2)
     return Qv, QDv
+
+def grid_sampling_qdot_no_q(tdot0_min,tdot0_max,tdot1_min,tdot1_max,n_points):
+    n_side = int(torch.sqrt(tensor(n_points)))
+    tdot0_grid = torch.linspace(tdot0_min,tdot0_max,n_side)
+    tdot1_grid = torch.linspace(tdot1_min,tdot1_max,n_side)
+    TD0, TD1 = torch.meshgrid(tdot0_grid,tdot1_grid, indexing='ij')
+    QDv = torch.zeros(2,n_side**2)
+    QDv[0,:] = TD0.reshape(-1)
+    QDv[1,:] = TD1.reshape(-1)
+    Qv = torch.zeros(2,n_side**2)
+    return Qv, QDv
+
+def grid_sampling_qdot_with_q(tdot0_min,tdot0_max,tdot1_min,tdot1_max,n_points,t_value):
+    n_side = int(torch.sqrt(tensor(n_points)))
+    tdot0_grid = torch.linspace(tdot0_min,tdot0_max,n_side)
+    tdot1_grid = torch.linspace(tdot1_min,tdot1_max,n_side)
+    TD0, TD1 = torch.meshgrid(tdot0_grid,tdot1_grid, indexing='ij')
+    QDv = torch.zeros(2,n_side**2)
+    QDv[0,:] = TD0.reshape(-1)
+    QDv[1,:] = TD1.reshape(-1)
+    Qv = torch.ones(2,n_side**2)
+    Qv[0,:] = t_value[0]*Qv[0,:]
+    Qv[1,:] = t_value[1]*Qv[1,:]
+    return Qv, QDv
+
+
 
 def Euler_step(t,tdot,h,m1,m2,l1,l2):
     acc = QDD(t,tdot,m1,m2,l1,l2)
