@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  26 JUL 2025 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  26 JUL 2025 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**May29_weekly.tex
-(./May29_weekly.tex
+**July_26.tex
+(./July_26.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -613,8 +613,8 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 \@quotelevel=\count440
 \@quotereset=\count441
 
-(./May29_weekly.aux)
-\openout1 = `May29_weekly.aux'.
+(./July_26.aux)
+\openout1 = `July_26.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -693,9 +693,9 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 54.
-(./May29_weekly.out) (./May29_weekly.out)
+(./July_26.out) (./July_26.out)
 \@outlinefile=\write4
-\openout4 = `May29_weekly.out'.
+\openout4 = `July_26.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -708,29 +708,26 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `May29_weekly.bcf'.
+\openout3 = `July_26.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'May29_weekly.bbl' found.
+Package biblatex Info: ... file 'July_26.bbl' found.
 
-(./May29_weekly.bbl)
+(./July_26.bbl)
 Package biblatex Info: Reference section=0 on input line 54.
 Package biblatex Info: Reference segment=0 on input line 54.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
 
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
 
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(./May29_weekly.toc)
+) (./July_26.toc)
 \tf@toc=\write5
-\openout5 = `May29_weekly.toc'.
+\openout5 = `July_26.toc'.
 
 
 
@@ -738,52 +735,91 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
+LaTeX Warning: Citation 'Yu2021' on page 2 undefined on input line 69.
+
+
+
 [2]
 
 [3]
+<accelerations_zv_true.png, id=63, 1786.5144pt x 904.8204pt>
+File: accelerations_zv_true.png Graphic file (type png)
+<use accelerations_zv_true.png>
+Package pdftex.def Info: accelerations_zv_true.png  used on input line 156.
+(pdftex.def)             Requested size: 393.03438pt x 199.0611pt.
+<accelerations_zv_model.png, id=65, 1786.5144pt x 904.8204pt>
+File: accelerations_zv_model.png Graphic file (type png)
+<use accelerations_zv_model.png>
+Package pdftex.def Info: accelerations_zv_model.png  used on input line 165.
+(pdftex.def)             Requested size: 393.03438pt x 199.0611pt.
 
-[4]
 
-[5] (./May29_weekly.aux)
+[4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+} <./accelerations_zv_true.png>]
+<acceleration_model_error.png, id=74, 682.2288pt x 682.2288pt>
+File: acceleration_model_error.png Graphic file (type png)
+<use acceleration_model_error.png>
+Package pdftex.def Info: acceleration_model_error.png  used on input line 176.
+(pdftex.def)             Requested size: 204.67021pt x 204.67021pt.
+
+
+[5 <./accelerations_zv_model.png> <./acceleration_model_error.png>]
+
+[6]
+
+LaTeX Warning: Empty bibliography on input line 189.
+
+
+
+[7] (./July_26.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `May29_weekly.out' has not changed.
-(rerunfilecheck)             Checksum: D6BB513120B417F8376B87117354BE13;1227.
-Package logreq Info: Writing requests to 'May29_weekly.run.xml'.
-\openout1 = `May29_weekly.run.xml'.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `July_26.out' has not changed.
+(rerunfilecheck)             Checksum: 50ECFFF5C9A38D30BC8CA255AC80B65A;656.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                July_26
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'July_26.run.xml'.
+\openout1 = `July_26.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20124 strings out of 473190
- 350169 string characters out of 5715801
- 1177205 words of memory out of 5000000
- 43150 multiletter control sequences out of 15000+600000
- 569022 words of font info for 76 fonts, out of 8000000 for 9000
+ 20118 strings out of 473190
+ 350090 string characters out of 5715801
+ 1179366 words of memory out of 5000000
+ 43143 multiletter control sequences out of 15000+600000
+ 567642 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,81p,1373b,1333s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,81p,755b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
 sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
 l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
-xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
-2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on May29_weekly.pdf (5 pages, 197429 bytes).
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/202
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
+25/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on July_26.pdf (7 pages, 1056207 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
